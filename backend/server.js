@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config(); // 👈 This must be the first line
 const express = require("express");
 const cors = require("cors");
 const connectDB = require("./config/db.js");
