@@ -115,18 +115,28 @@ export default function Experience() {
                   </h3>
                 </div>
 
-                <div className="space-y-6 pl-2 sm:pl-0">
-                  <div className="border-l-4 border-indigo-400 pl-4 py-1">
-                    <h4 className="text-xl font-semibold text-gray-800">Prodigy InfoTech</h4>
-                    <p className="text-indigo-600 mb-2 text-sm font-medium">Mar 2024 (4 weeks)</p>
-                    <p className="text-gray-600">Virtual internship focused on modern web development practices</p>
-                  </div>
+               <div className="space-y-6 pl-2 sm:pl-0">
+  <div className="border-l-4 border-indigo-400 pl-4 py-2">
+    <h4 className="text-xl font-semibold text-gray-800">Enfratech System Pvt Ltd</h4>
+    <p className="text-indigo-600 mb-2 text-sm font-medium">Aug – Apr 2024(8 Months)</p>
+    <p className="text-gray-600 mb-2">
+      Virtual internship focusing on full-stack web development, UI/UX, and API integration.
+    </p>
+    <ul className="list-disc list-inside text-gray-600 space-y-1">
+      <li>Converted Figma designs into responsive React components using Tailwind CSS</li>
+      <li>Built modular UI components & managed state with React Hooks</li>
+      <li>Integrated RESTful APIs & developed backend services with Spring Boot</li>
+      <li>Implemented CRUD operations, JWT authentication, and MySQL integration</li>
+      <li>Collaborated on full-stack features and led small team tasks</li>
+    </ul>
+  </div>
 
-                  <div className="border-l-4 border-indigo-400 pl-4 py-1">
+
+                  {/* <div className="border-l-4 border-indigo-400 pl-4 py-1">
                     <h4 className="text-xl font-semibold text-gray-800">Codsoft</h4>
                     <p className="text-indigo-600 mb-2 text-sm font-medium">Feb-Mar 2024 (4 weeks)</p>
                     <p className="text-gray-600">Hands-on experience building web applications from scratch</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

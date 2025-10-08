@@ -24,10 +24,10 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { url: "https://www.linkedin.com/in/dhiraj-patil-046646230/", icon: <FaLinkedin size={20} />, name: "LinkedIn" },
-    { url: "https://github.com/Dhirajpatil7721", icon: <FaGithub size={20} />, name: "GitHub" },
-    { url: "https://www.instagram.com/dhiraj._.patil_/profilecard/?igsh=emdwaHU5a2p2bmds", icon: <FaInstagram size={20} />, name: "Instagram" },
-    { url: "https://www.facebook.com/share/1DL1unsKjW/", icon: <FaFacebook size={20} />, name: "Facebook" }
+    { url: "https://www.linkedin.com/in/akanksha-dhekane-b17a70315/", icon: <FaLinkedin size={20} />, name: "LinkedIn" },
+    { url: "https://github.com/akankshaaa27", icon: <FaGithub size={20} />, name: "GitHub" },
+    // { url: "https://www.instagram.com/dhiraj._.patil_/profilecard/?igsh=emdwaHU5a2p2bmds", icon: <FaInstagram size={20} />, name: "Instagram" },
+    // { url: "https://www.facebook.com/share/1DL1unsKjW/", icon: <FaFacebook size={20} />, name: "Facebook" }
   ];
 
   return (
@@ -97,7 +97,7 @@ export default function Footer() {
         {/* Copyright and Back to Top */}
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Dhiraj Patil. All rights reserved.
+            &copy; {new Date().getFullYear()} Akanksha Dhekane. All rights reserved.
           </p>
           <button
             onClick={scrollToTop}
